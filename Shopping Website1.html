@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Shopping Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="html"  href="contact.html">
+</head>
+<body>
+  <header>
+    <h1>Mobile Shopping Website</h1>
+    <nav>
+      <ul>
+         <li><a href="#" id="home-link">Home</a></li>
+        <li><a href="#" id="products-link">Products</a></li>
+        <li><a href="#" id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="products">
+      <article>
+        <img src="Img\iphone.jpg" width="200" height="300"   alt="iphone"  >
+        <h2>iphone</h2>
+        <p>$150</p>
+        <button class="add-to-cart" data-name="iphone" data-price="150">Add to Cart</button>
+      </article>
+      <article>
+        <img src="Img\one plus.jpg" alt="one plus">
+        <h2>One Plus</h2>
+        <p>$100</p>
+        <button class="add-to-cart" data-name="One Plus" data-price="100">Add to Cart</button>
+      </article>
+       <article>
+        <img src="Img\sam.jpg" alt="samsung">
+        <h2>Samsung</h2>
+        <p>$80</p>
+        <button class="add-to-cart" data-name="Samsung" data-price="80">Add to Cart</button>
+      </article>
+       <article>
+        <img src="Img\realme.jpg" alt="realme">
+        <h2>Realme</h2>
+        <p>$60</p>
+        <button class="add-to-cart" data-name="Realme" data-price="60">Add to Cart</button>
+      </article>
+       <article>
+        <img src="Img\redmi.jpg" alt="redmi">
+        <h2>Redmi</h2>
+        <p>$50</p>
+        <button class="add-to-cart" data-name="Redmi" data-price="50">Add to Cart</button>
+      </article>
+
+      <!-- More products... -->
+    </section>
+    <section class="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-list"></ul>
+      <p>Total: <span id="total-price">$0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;  Mobile Shopping Website</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
